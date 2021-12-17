@@ -3,8 +3,7 @@
   become: yes 
   tasks: 
   - name: i want to install web server on ubuntu16 nodes
-    apt: 
-      
+    apt:  
       name: "{{mywebpackageonubuntu}}"
       state: present
     when: ansible_os_family =="Debian"
