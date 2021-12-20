@@ -1,2 +1,4 @@
 ---
 # tasks file for mytomonubuntu16
+
+-include_tasks: installjava.yml
