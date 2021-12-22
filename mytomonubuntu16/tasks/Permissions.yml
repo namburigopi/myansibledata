@@ -20,6 +20,7 @@
     state: directory
     mode: g+x 
     
+    
 - name: Make the tomcat user the owner of the webapps
   file:
     path: /opt/tomcat/webapps/
