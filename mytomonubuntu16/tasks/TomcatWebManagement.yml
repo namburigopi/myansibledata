@@ -10,6 +10,6 @@
       dest: /opt/tomcat/webapps/manager/META-INF/context.xml 
 
 - name: copy tomcat host manager context file into nodes
-  templete:       
+  template:       
       src: templates/mytomcathostmanagercontext.j2
       dest: /opt/tomcat/webapps/host-manager/META-INF/context.xml
